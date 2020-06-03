@@ -27,11 +27,11 @@
     "node-pre-gyp": "^0.12.0"
   },
   "binary": {
-    "module_name": "grpc_tools",
+    "module_name": "grpc_node",
+    "module_path": "src/node/extension_binary/{node_abi}-{platform}-{arch}-{libc}",
     "host": "https://node-precompiled-binaries.grpc.io/",
     "remote_path": "{name}/v{version}",
-    "package_name": "{platform}-{arch}.tar.gz",
-    "module_path": "bin"
+    "package_name": "windows-x64.tar.gz"
   },
   "files": [
     "index.js",
